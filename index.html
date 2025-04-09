@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies</title>
+    <script defer src="index.js"></script>
+    <style>
+        #cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #2c2c2c;
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            z-index: 1000;
+        }
+
+        #cookie-banner button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #cookie-banner button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div id="cookie-banner" style="display: none;">
+    <span>This website uses cookies to ensure you get the best experience.</span>
+    <button id="accept-cookies">Accept</button>
+</div>
+
+</body>
+</html>
